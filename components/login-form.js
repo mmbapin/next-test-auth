@@ -10,12 +10,12 @@ export function LoginForm({ className, ...props }) {
 			<Card>
 				<CardHeader className='text-center'>
 					<CardTitle className='text-xl'>Welcome back</CardTitle>
-					<CardDescription>Login with your Apple or Google account</CardDescription>
+					{/* <CardDescription>Login with your Apple or Google account</CardDescription> */}
 				</CardHeader>
 				<CardContent>
 					<form>
 						<div className='grid gap-6'>
-							<div className='flex flex-col gap-4'>
+							{/* <div className='flex flex-col gap-4'>
 								<Button variant='outline' className='w-full'>
 									<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'>
 										<path
@@ -37,7 +37,7 @@ export function LoginForm({ className, ...props }) {
 							</div>
 							<div className='relative text-center text-sm after:absolute after:inset-0 after:top-1/2 after:z-0 after:flex after:items-center after:border-t after:border-border'>
 								<span className='relative z-10 bg-background px-2 text-muted-foreground'>Or continue with</span>
-							</div>
+							</div> */}
 							<div className='grid gap-6'>
 								<div className='grid gap-2'>
 									<Label htmlFor='email'>Email</Label>
@@ -66,9 +66,9 @@ export function LoginForm({ className, ...props }) {
 					</form>
 				</CardContent>
 			</Card>
-			<div className='text-balance text-center text-xs text-muted-foreground [&_a]:underline [&_a]:underline-offset-4 [&_a]:hover:text-primary  '>
+			{/* <div className='text-balance text-center text-xs text-muted-foreground [&_a]:underline [&_a]:underline-offset-4 [&_a]:hover:text-primary  '>
 				By clicking continue, you agree to our <a href='#'>Terms of Service</a> and <a href='#'>Privacy Policy</a>.
-			</div>
+			</div> */}
 		</div>
 	);
 }
